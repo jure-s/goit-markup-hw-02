@@ -1,0 +1,183 @@
+/* ============= VARIABLES ============= */
+:root {
+    --primary-color: #2E2F42;
+    --secondary-color: #434455;
+    --accent-color: #404BBF;
+    --third-color: #4D5AE5;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--primary-font)
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+/* ============= COMMON STYLES ============= */
+
+/* ============= PAGE HEADER ============= */
+.logotype {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.logotype-text-color {
+    color: #4D5AE5;
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.32px;
+    color: var(--primary-color);
+}
+
+.adress-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.32px;
+    color: var(--primary-color);
+}
+
+.menu-link:hover, 
+.adress-link:hover,
+.menu-link:focus, 
+.adress-link:focus {
+    color: var(--accent-color);
+}
+
+/* ============= PAGE HEADER ============= */
+
+/* ================ COMPONENTS ================ */
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+/* ================ /COMPONENTS ================ */
+
+/* ================ HERO ================ */
+.main-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.order-service-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    text-align: center;
+    background-color: var(--third-color);
+    color: #FFFFFF;
+}
+
+.order-service-btn:hover,
+.sort-btn:hover,
+.order-service-btn:focus,
+.sort-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+/* ================ HERO ================ */
+
+/* ================ BENEFITS ================ */
+.benefits-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--primary-color);
+}
+
+.benefits-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--secondary-color);
+}
+
+/* ================ /BENEFITS ================ */
+
+/* ================ OUR TEAM ================ */
+.team-title, .products-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--primary-color);
+}
+
+.team-profession, .products-type {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--secondary-color);
+}
+
+.team-position {
+    text-align: center;
+}
+
+/* ================ /OUR TEAM ================ */
+
+/* ================ FOOTER ================ */
+.logotype-text-secondary-color {
+    color: #F4F4FD;
+}
+.footer-tagline {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #F4F4FD;
+}
+/* ================ /FOOTER ================ */
+
+/* ================ PORTFOLIO ================ */
+.sort-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    text-align: center;
+    background-color: #F4F4FD;
+    color: var(--third-color)
+}
+
+/* ================ /PORTFOLIO ================ */
