@@ -37,8 +37,8 @@ body {
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: -0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
     color: var(--primary-color);
 }
@@ -51,17 +51,20 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.32px;
+    letter-spacing: 0.32px;
     color: var(--primary-color);
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .adress-link {
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: -0.32px;
-    color: var(--primary-color);
+    letter-spacing: 0.32px;
+    color: var(--secondary-color);
 }
 
 .menu-link:hover, 
@@ -86,6 +89,9 @@ body {
 /* ================ /COMPONENTS ================ */
 
 /* ================ HERO ================ */
+.hero {
+    background-color: var(--primary-color);
+}
 .main-title {
     font-size: 56px;
     font-weight: 700;
@@ -96,6 +102,7 @@ body {
 }
 
 .order-service-btn {
+    font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -106,9 +113,7 @@ body {
 }
 
 .order-service-btn:hover,
-.sort-btn:hover,
-.order-service-btn:focus,
-.sort-btn:focus {
+.order-service-btn:focus, {
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
@@ -134,6 +139,14 @@ body {
 /* ================ /BENEFITS ================ */
 
 /* ================ OUR TEAM ================ */
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
+
 .team-title, .products-list-title {
     font-size: 20px;
     font-weight: 500;
@@ -157,6 +170,10 @@ body {
 /* ================ /OUR TEAM ================ */
 
 /* ================ FOOTER ================ */
+.page-footer {
+    background-color: var(--primary-color);
+}
+
 .logotype-text-secondary-color {
     color: #F4F4FD;
 }
@@ -171,6 +188,7 @@ body {
 
 /* ================ PORTFOLIO ================ */
 .sort-btn {
+    font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -178,6 +196,12 @@ body {
     text-align: center;
     background-color: #F4F4FD;
     color: var(--third-color)
+}
+
+.sort-btn:hover,
+.sort-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /* ================ /PORTFOLIO ================ */
