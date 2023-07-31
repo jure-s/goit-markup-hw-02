@@ -24,7 +24,9 @@ button {
 }
 
 body {
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
+    color: var(var(--secondary-color));
+    background-color: #FFFFFF;
 }
 
 .accent-color {
@@ -40,11 +42,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: var(--third-colorolor);
 }
 
-.logotype-text-color {
-    color: #4D5AE5;
+.logotype-text-first-color {
+    color: var(--primary-color);
 }
 
 .menu-link {
@@ -113,7 +115,7 @@ body {
 }
 
 .order-service-btn:hover,
-.order-service-btn:focus, {
+.order-service-btn:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
